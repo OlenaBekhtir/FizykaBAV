@@ -1,0 +1,20 @@
+.icons-img {
+    width: 30px;
+    margin: 10px;
+}
+
+.author {
+    color: #cb6ce8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid #cb6ce8;
+    text-align: center;
+    padding-top: 16px;
+    background-color:antiquewhite;
+}

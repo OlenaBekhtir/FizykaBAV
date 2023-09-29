@@ -6,6 +6,7 @@ import { ThermoDinamikaPage } from './pages/ThermoDinamika/ThermoDinamikaPage';
 import { ElectricaPage } from './pages/Electrica/ElectricaPage';
 import { OptikaPage } from './pages/Optika/OptikaPage';
 import { YaderkaPage } from './pages/Yaderka/YaderkaPage';
+import { Footer } from './components/Footer/Footer';
 
 
 const routes = [
@@ -45,14 +46,16 @@ const routes = [
 function App() {
 
   return (
-
+    <>
+   
     <Routes>
       {/* {...routes.map(r => <Route {...r} />)} */}
       {routes.map((route, index) => (
         <Route key={index} {...route} />
       ))}
     </Routes>
-
+    <Footer/>
+    </>
   )
 }
 
