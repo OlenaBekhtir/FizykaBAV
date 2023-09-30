@@ -7,6 +7,8 @@ import { ElectricaPage } from './pages/Electrica/ElectricaPage';
 import { OptikaPage } from './pages/Optika/OptikaPage';
 import { YaderkaPage } from './pages/Yaderka/YaderkaPage';
 import { Footer } from './components/Footer/Footer';
+import { Sidebar } from './components/Sidebar/Sidebar';
+import { Header } from './components/Header/Header';
 
 
 const routes = [
@@ -47,14 +49,17 @@ function App() {
 
   return (
     <>
-   
-    <Routes>
-      {/* {...routes.map(r => <Route {...r} />)} */}
-      {routes.map((route, index) => (
-        <Route key={index} {...route} />
-      ))}
-    </Routes>
-    <Footer/>
+      <div className='main'>
+        <Header/>
+        <Sidebar />
+        <Routes>
+          {/* {...routes.map(r => <Route {...r} />)} */}
+          {routes.map((route, index) => (
+            <Route key={index} {...route} />
+          ))}
+        </Routes>
+        <Footer />
+      </div>
     </>
   )
 }
