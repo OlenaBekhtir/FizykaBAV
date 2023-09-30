@@ -1,0 +1,18 @@
+.wrap-mehanika {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 5%;
+}
+
+.image-mehanika {
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.text-mehanika {
+    font-size: 20px;
+    font-weight: 600;
+}
