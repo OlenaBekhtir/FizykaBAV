@@ -1,6 +1,8 @@
 .wrap-mehanika {
     display: flex;
     flex-direction: column;
+    text-align: justify;
+    
     margin-left: 10px;
     margin-right: 5%;
 }
