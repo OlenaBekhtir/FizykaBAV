@@ -9,10 +9,10 @@ export const Header = () => {
       <div className='logo-wrap'>
         <div className='wrap-img'>
           <Link to={`/`}>
-          <img src={Logo} className="logo" alt="Fizyka Logo" />
+            <img src={Logo} className="logo" alt="Fizyka Logo" />
           </Link>
         </div>
-        <h1 className='title'>FizykaBAV</h1>
+          <h1 className='title'>FizykaBAV</h1>
       </div>
     </>
   )

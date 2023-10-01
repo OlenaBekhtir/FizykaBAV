@@ -3,6 +3,10 @@
     margin: 10px;
 }
 
+.author-name {
+    font-style: italic;
+}
+
 .author {
     color: #cb6ce8;
     font-weight: 900;
@@ -11,6 +15,7 @@
 
 .footer {
     width: 100%;
+    height: 80px;
     max-width: 1280px;
     position: absolute;
     bottom: 0;
@@ -18,4 +23,5 @@
     text-align: center;
     padding-top: 16px;
     background-color:antiquewhite;
+    padding-bottom: 5px;
 }

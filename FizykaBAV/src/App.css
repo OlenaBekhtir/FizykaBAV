@@ -6,3 +6,21 @@
 .main {
   display: flex;
 }
+
+.wrap-content {
+  height: calc(100vh - 190px);
+  overflow-y: auto;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrap-text {
+  margin-left: 20px;
+}
+
+.title-span {
+  font-style: italic;
+  font-weight: 600;
+}
