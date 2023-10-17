@@ -1,16 +1,15 @@
 .logo-wrap {
-    height: 90px;
+    height: 50px;
     display: flex;
     align-items: center;
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    top: 20px;
+    margin-bottom: 50px;
   }
   
   .logo {
-    height: 4em;
-    padding: 1.5em;
+    height: 50px;
+    padding: 20px;
     will-change: filter;
     transition: filter 300ms;
   }
@@ -25,7 +24,6 @@
   
   .wrap-img {
     text-align: center;
-    margin-right: 10px;
   }
 
   .title-wrap {
@@ -35,4 +33,5 @@
   
   .title {
     color: #cb6ce8;
+    padding-bottom: 20px;
   }

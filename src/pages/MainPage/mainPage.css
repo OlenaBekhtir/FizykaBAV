@@ -13,7 +13,7 @@
     position: relative;
     width: 50%; 
     /* height: 250px; */
-    margin: 50px;
+    margin-inline: 50px;
     border: 2px solid #cb6ce8;
     border-radius: 20px;
     box-shadow: 0 34px 36px rgba(0, 0, 0, 0.5); /* Додайте тінь */
@@ -21,6 +21,7 @@
     color: #64107d;
     @media (max-width: 1050px) {
       width: 75%;
+      margin-bottom: 50px;
     }
   }
 
