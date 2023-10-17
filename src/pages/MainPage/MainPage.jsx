@@ -9,7 +9,7 @@ export const MainPage = () => {
       <div className='wrap-content'>
         <section className='section-blocks'>
           <div className='block'>
-            <h2 className='block-text'>Послуги репетитора з фізики</h2>
+            <h2 className='block-text'>Послуги репетитора з фізики<br/>Розробка уроків та методичних матеріалів</h2>
             <img src={Reklama1} alt='reklama' className='block-image' />
             <a href="https://msng.link/o?380972234161=vi"><h3>телефон/вайбер: 097-223-41-61</h3></a>
           </div>
