@@ -1,22 +1,27 @@
 .wrap-content {
-    width: 90vw;
+    width: 90%;
   }
   
   .section-blocks {
     display: flex;
+    @media (max-width: 1050px) {
+      flex-direction: column;
+    }
   }
   
   .block {
     position: relative;
     width: 50%; 
-    height: 250px;
+    /* height: 250px; */
     margin: 50px;
     border: 2px solid #cb6ce8;
     border-radius: 20px;
     box-shadow: 0 34px 36px rgba(0, 0, 0, 0.5); /* Додайте тінь */
     text-align: center;
-    padding: 20px;
     color: #64107d;
+    @media (max-width: 1050px) {
+      width: 75%;
+    }
   }
 
   .block::before {
@@ -52,4 +57,9 @@
 
   .block-contact {
     display: flex;
+    padding: 20px;
+  }
+
+  .block-text {
+    padding-top: 20px;
   }
