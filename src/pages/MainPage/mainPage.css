@@ -12,7 +12,6 @@
   .block {
     position: relative;
     width: 50%; 
-    /* height: 250px; */
     margin-inline: 50px;
     border: 2px solid #cb6ce8;
     border-radius: 20px;

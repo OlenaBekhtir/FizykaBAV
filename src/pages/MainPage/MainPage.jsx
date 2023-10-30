@@ -1,7 +1,7 @@
 import React from 'react';
 import './mainPage.css';
-import Reklama1 from './../../img/reklama1.jpg';
-import Reklama2 from './../../img/reklama2.jpg';
+import Reklama1 from './../../img/reklama1.webp';
+import Reklama2 from './../../img/reklama2.webp';
 
 export const MainPage = () => {
   return (

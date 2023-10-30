@@ -1,5 +1,5 @@
 import React from 'react';
-import Optika from './../../img/optika.jpg';
+import Optika from './../../img/optika.webp';
 import './optika.css'
 
 export const OptikaPage = () => {

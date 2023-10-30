@@ -1,5 +1,5 @@
 import React from 'react'
-import ThermoDinamika from './../../img/thermodinamika.jpg';
+import ThermoDinamika from './../../img/thermodinamika.webp';
 import './thermodinamika.css'
 
 export const ThermoDinamikaPage = () => {

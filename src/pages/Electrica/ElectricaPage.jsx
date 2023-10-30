@@ -1,5 +1,5 @@
 import React from 'react';
-import Electrica from './../../img/electrician.jpg';
+import Electrica from './../../img/electrician.webp';
 import './electrica.css'
 
 export const ElectricaPage = () => {

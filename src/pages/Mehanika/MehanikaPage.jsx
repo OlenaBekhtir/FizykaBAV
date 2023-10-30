@@ -1,5 +1,5 @@
 import React from 'react';
-import Mehanika from './../../img/mehanika.jpg';
+import Mehanika from './../../img/mehanika.webp';
 import './mehanika.css'
 
 export const MehanikaPage = () => {

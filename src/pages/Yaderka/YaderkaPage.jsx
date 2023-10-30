@@ -1,5 +1,5 @@
 import React from 'react';
-import Yaderka from './../../img/yaderka.jpg';
+import Yaderka from './../../img/yaderka.webp';
 import './yaderka.css'
 
 export const YaderkaPage = () => {
