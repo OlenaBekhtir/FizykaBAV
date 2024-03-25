@@ -1,30 +1,35 @@
 .nav-link {
-    background-color: antiquewhite;
-    padding: 30px;
-    font-size: large;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
-  
-  .nav-link ul {
-    list-style-type: none;
-    padding: 10px;
-  }
-  
-  .nav-link li {
-    margin-bottom: 20px;
-  }
-  
-  .nav-link a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .nav-link a:hover {
-    color: #007bff;
-  }
+  background-color: antiquewhite;
+  font-size: large;
+  border-radius: 10px;
+  /* margin-top: 20px; */
 
-  .active {
-    font-weight: 900;
-    color: #cb6ce8;
-  }
+}
+
+.nav-link ul {
+  list-style-type: none;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link li {
+  margin-right: 20px;
+  /* Додати відступ між елементами */
+  flex: 1;
+}
+
+.nav-link a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link a:hover {
+  color: #007bff;
+}
+
+.active {
+  font-weight: 900;
+  color: #cb6ce8;
+}

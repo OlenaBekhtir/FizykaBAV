@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react'; // Импортируем хук useState
 import { Routes, Route } from 'react-router-dom';
 import { MainPage } from './pages/MainPage/MainPage';
 import { MehanikaPage } from './pages/Mehanika/MehanikaPage';
@@ -47,19 +48,24 @@ const routes = [
 
 function App() {
 
+  const [showSidebar, setShowSidebar] = useState(true); // Состояние для отображения сайдбара
+
   return (
     <>
       <div className='main'>
-        <Header/>
-        <Sidebar />
+
+        <Header/> 
+        <Sidebar /> 
+
         <Routes>
           {/* {...routes.map(r => <Route {...r} />)} */}
           {routes.map((route, index) => (
             <Route key={index} {...route} />
           ))}
         </Routes>
+        </div>
         <Footer />
-      </div>
+   
     </>
   )
 }

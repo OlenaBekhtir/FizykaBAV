@@ -8,20 +8,16 @@
   }
   
   .logo {
-    height: 50px;
+    height: 54px;
     padding: 20px;
-    will-change: filter;
+    border-radius: 50%;
     transition: filter 300ms;
   }
   
   .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+    filter: drop-shadow(0 0 4px #cb6ce8);
   }
-  
-  .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  }
-  
+   
   .wrap-img {
     text-align: center;
   }

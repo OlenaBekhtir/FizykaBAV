@@ -17,12 +17,13 @@
     width: 100%;
     height: 80px;
     max-width: 1280px;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     border-top: 2px solid #cb6ce8;
     text-align: center;
     padding-top: 16px;
     background-color:antiquewhite;
     padding-bottom: 5px;
     margin-top: auto;
+    margin-bottom: 0;
 }
