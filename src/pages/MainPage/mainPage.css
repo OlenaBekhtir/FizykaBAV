@@ -1,84 +1,115 @@
 .wrap-content {
-    width: 90%;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
+  @media screen and (max-width: 1280px) {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
   }
 
-  .main-text {
-    font-size: 32px;
-    font-weight: 700;
-    color: #cb6ce8;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    text-align: center;
-    font-style: italic;
+}
 
-    @media screen and (max-width: 900px) {
-      font-size: 24px;
-    }
-  }
-  
-  .section-blocks {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    @media (max-width: 1050px) {
-      flex-direction: column;
-    }
-  }
-  
-  .block {
-    position: relative;
-    width: 50%; 
-    margin-inline: 50px;
-    border: 2px solid #cb6ce8;
-    border-radius: 20px;
-    box-shadow: 0 34px 36px rgba(0, 0, 0, 0.5); /* Додайте тінь */
-    text-align: center;
-    color: #64107d;
-    @media (max-width: 1050px) {
-      width: 75%;
-      margin-bottom: 50px;
-    }
-  }
+.main-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #cb6ce8;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-style: italic;
+  margin-inline: 40px;
 
-  .block::before {
-    content: '';
-    position: absolute; /* Встановіть позицію на absolute */
-    top: 4px; /* Відстань від верхнього краю блоку */
-    left: 4px; /* Відстань від лівого краю блоку */
-    width: 30px; /* Ширина кнопки */
-    height: 30px; /* Висота кнопки */
-    background-color: #cb6ce8; /* Колір кнопки */
-    border-radius: 50%; /* Закруглені краї кнопки */
-    content: ''; /* Порожнє вміст псевдоелемента */
-    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.5); 
+  @media screen and (max-width: 900px) {
+    font-size: 24px;
+    margin-inline: 20px;
   }
+}
 
-  .block::after {
-    content: '';
-    position: absolute; /* Встановіть позицію на absolute */
-    top: 4px; /* Відстань від верхнього краю блоку */
-    right: 4px; /* Відстань від правого краю блоку */
-    width: 30px; /* Ширина другої кнопки */
-    height: 30px; /* Висота другої кнопки */
-    background-color: antiquewhite; /* Колір другої кнопки */
-    border-radius: 50%; /* Закруглені краї другої кнопки */
-    content: ''; /* Порожнє вміст псевдоелемента */
-    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.5);
-  }
+.section-blocks {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
-  .block-image{
-    width: 45%;
-    border-radius: 20px;
+  @media (max-width: 1050px) {
+    flex-direction: column;
   }
+}
 
-  .block-contact {
-    display: flex;
-    padding: 20px;
-  }
+.block {
+  position: relative;
+  width: 50%;
+  margin-inline: 50px;
+  border: 2px solid #cb6ce8;
+  border-radius: 20px;
+  box-shadow: 0 34px 36px rgba(0, 0, 0, 0.5);
+  /* Додайте тінь */
+  text-align: center;
+  color: #64107d;
 
-  .block-text {
-    padding-top: 20px;
+  @media (max-width: 1050px) {
+    width: 75%;
+    margin-bottom: 50px;
+    margin-inline: auto;
   }
+}
+
+.block::before {
+  content: '';
+  position: absolute;
+  /* Встановіть позицію на absolute */
+  top: 4px;
+  /* Відстань від верхнього краю блоку */
+  left: 4px;
+  /* Відстань від лівого краю блоку */
+  width: 30px;
+  /* Ширина кнопки */
+  height: 30px;
+  /* Висота кнопки */
+  background-color: #cb6ce8;
+  /* Колір кнопки */
+  border-radius: 50%;
+  /* Закруглені краї кнопки */
+  content: '';
+  /* Порожнє вміст псевдоелемента */
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.5);
+}
+
+.block::after {
+  content: '';
+  position: absolute;
+  /* Встановіть позицію на absolute */
+  top: 4px;
+  /* Відстань від верхнього краю блоку */
+  right: 4px;
+  /* Відстань від правого краю блоку */
+  width: 30px;
+  /* Ширина другої кнопки */
+  height: 30px;
+  /* Висота другої кнопки */
+  background-color: antiquewhite;
+  /* Колір другої кнопки */
+  border-radius: 50%;
+  /* Закруглені краї другої кнопки */
+  content: '';
+  /* Порожнє вміст псевдоелемента */
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.5);
+}
+
+.block-image {
+  width: 45%;
+  border-radius: 20px;
+}
+
+.block-contact {
+  display: flex;
+  padding: 20px;
+}
+
+.block-text {
+  padding-top: 20px;
+  margin-inline: 12px;
+}
