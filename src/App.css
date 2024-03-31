@@ -26,24 +26,4 @@
   font-weight: 600;
 }
 
-/* Стилі кнопки при ширині екрана більше 900px */
-/* .toggle-button {
-  display: none; 
-} */
 
-  /* Змінюємо стилі кнопки при показі сайдбара */
-  .toggle-button {
-    display: block;
-    background-color: white; /* Колір фону кнопки */
-    border: none; /* Видаляємо границю кнопки */
-    cursor: pointer; /* Змінюємо курсор на показчик */
-  }
-
-/* Стилі сайдбара при ширині екрана більше 900px */
-@media screen and (min-width: 900px) {
-  .sidebar {
-    display: block; /* Показуємо сайдбар */
-  }
-
-
-}

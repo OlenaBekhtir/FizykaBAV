@@ -1,33 +1,66 @@
-.logo-wrap {
-    height: 50px;
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  background-color: antiquewhite;
+
+  @media screen and (max-width: 900px) {
     display: flex;
-    align-items: center;
-    position: absolute;
-    top: 20px;
-    margin-bottom: 50px;
-  }
-  
-  .logo {
-    height: 54px;
-    padding: 20px;
-    border-radius: 50%;
-    transition: filter 300ms;
-  }
-  
-  .logo:hover {
-    filter: drop-shadow(0 0 4px #cb6ce8);
-  }
-   
-  .wrap-img {
-    text-align: center;
+    justify-content: space-between;
   }
 
-  .title-wrap {
-    display: flex;
-    flex-direction: column;
+}
+
+.logo-wrap {
+  height: 50px;
+  display: flex;
+}
+
+.logo {
+  height: 54px;
+  padding: 20px;
+  border-radius: 50%;
+  transition: filter 300ms;
+  @media screen and (max-width: 900px) {
+    height: 32px;
+    padding: 8px;
+   }
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 4px #cb6ce8);
+}
+
+.wrap-img {
+  text-align: center;
+}
+
+.title-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #cb6ce8;
+  /* padding-bottom: 20px; */
+  @media screen and (max-width: 900px) {
+   font-size: 24px;
+   margin-top: 8px;
   }
-  
-  .title {
-    color: #cb6ce8;
-    padding-bottom: 20px;
+}
+
+/* Стилі кнопки при ширині екрана більше 900px */
+.burger-button {
+  /* display: block; */
+  background-color:#cb6ce8;
+  /* Колір фону кнопки */
+  border: none;
+  /* Видаляємо границю кнопки */
+  cursor: pointer;
+
+  /* Змінюємо курсор на показчик */
+  @media screen and (min-width: 901px) {
+    display: none;
   }
+}

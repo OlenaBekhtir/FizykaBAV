@@ -55,7 +55,7 @@ function App() {
       <div className='main'>
 
         <Header/> 
-        <Sidebar /> 
+        <Sidebar/> 
 
         <Routes>
           {/* {...routes.map(r => <Route {...r} />)} */}
