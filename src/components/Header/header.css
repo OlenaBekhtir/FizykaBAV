@@ -68,3 +68,21 @@
     display: none;
   }
 }
+
+/* Стилі кнопки з хрестиком */
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #cb6ce8;
+  /* Залишаємо інші стилі без змін */
+}
+
+.burger-button, .close-button {
+  order: 2; /* Другорядний порядок */
+}
+
+.logo-wrap {
+  order: 1; /* Першорядний порядок */
+}
