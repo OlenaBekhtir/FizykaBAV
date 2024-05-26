@@ -10,7 +10,8 @@
   }
 
   @media screen and (max-width: 900px) {
-    display: flex;
+    /* display: flex; */
+    width: 100%;
     justify-content: space-between;
   }
 
@@ -26,10 +27,11 @@
   padding: 20px;
   border-radius: 50%;
   transition: filter 300ms;
+
   @media screen and (max-width: 900px) {
     height: 32px;
     padding: 8px;
-   }
+  }
 }
 
 .logo:hover {
@@ -47,17 +49,18 @@
 
 .title {
   color: #cb6ce8;
+
   /* padding-bottom: 20px; */
   @media screen and (max-width: 900px) {
-   font-size: 24px;
-   margin-top: 8px;
+    font-size: 24px;
+    margin-top: 8px;
   }
 }
 
 /* Стилі кнопки при ширині екрана більше 900px */
 .burger-button {
   /* display: block; */
-  background-color:#cb6ce8;
+  background-color: #cb6ce8;
   /* Колір фону кнопки */
   border: none;
   /* Видаляємо границю кнопки */
@@ -71,18 +74,13 @@
 
 /* Стилі кнопки з хрестиком */
 .close-button {
-  background-color: transparent;
+  background-color: #cb6ce8;
   border: none;
   cursor: pointer;
-  font-size: 20px;
-  color: #cb6ce8;
-  /* Залишаємо інші стилі без змін */
-}
+  position: absolute;
+  left: calc(100% - 62px);
 
-.burger-button, .close-button {
-  order: 2; /* Другорядний порядок */
-}
-
-.logo-wrap {
-  order: 1; /* Першорядний порядок */
+    @media screen and (min-width: 901px) {
+      display: none;
+    }
 }

@@ -32,8 +32,11 @@ export const Header = () => {
       {/* Перехід від кнопки бургер-меню до кнопки у формі хрестика */}
       {showMenu ? (
         <button className="close-button" onClick={closeMenu}>
-          {/* Кнопка у вигляді хрестика */}
-          &#10005;
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 6L18 18" stroke="black" stroke-width="2" />
+            <path d="M6 18L18 6" stroke="black" stroke-width="2" />
+          </svg>
         </button>
       ) : (
         <button className='burger-button' onClick={toggleMenu}>

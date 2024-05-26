@@ -1,3 +1,9 @@
-.burger-menu {
-    text-align: center;
+.burger-menu div {
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    border: 3px solid #cb6ce8;
+    border-radius: 5px;
+    background-color: antiquewhite;
 }
